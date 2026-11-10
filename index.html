@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <meta name="description" content="مِداد — سوق عمل حر أوضح للمشاريع الجادة والمواهب الموثوقة.">
+  <title>مِداد — شغلك الجاي يبدأ هنا</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    <span>مِداد للأعمال — مساحة عمل واحدة تجمع الشركات والمواهب المستقلة</span>
+    <a href="#how-it-works">اكتشف طريقة العمل <span aria-hidden="true">←</span></a>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="مِداد — الرئيسية">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="brand-name">مِداد<span class="brand-period">.</span></span>
+    </a>
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+      <a class="nav-link active" href="#projects">استكشف المشاريع</a>
+      <a class="nav-link" href="#how-it-works">كيف يعمل؟</a>
+      <a class="nav-link" href="#why-midad">للشركات</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button notification-button" aria-label="الإشعارات" data-toast="لا توجد إشعارات جديدة">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg>
+        <span class="notification-dot"></span>
+      </button>
+      <button class="avatar-button" aria-label="الملف الشخصي" data-toast="ملفك الشخصي — أهلاً بك في مِداد">م</button>
+      <button class="menu-toggle" aria-label="فتح القائمة" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="sparkle">✳</span> سوق العمل المستقل، بشكل أذكى</div>
+        <h1>فكرتك تستحق<br> <span>الشخص الصح.</span></h1>
+        <p>مشاريع واضحة، خبراء موثوقون، واتفاقات من البداية. ابدأ شغلك من غير دوشة.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">اكتشف المشاريع <span aria-hidden="true">←</span></a>
+          <button class="button button-secondary" data-modal-open="project-modal"><span class="plus-icon">＋</span> انشر مشروعك</button>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>ل</span><span>ر</span><span>س</span><span>ن</span></div>
+          <div><strong>مجتمع يكبر كل يوم</strong><small>شركات ومواهب تبني مع بعض</small></div>
+          <span class="proof-divider"></span>
+          <div class="rating"><strong>٤٫٩</strong><span>★★★★★</span><small>تقييم مجتمعنا</small></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-glow"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-note note-top"><span class="note-icon">✦</span><span><b>اتفاق واضح</b><small>من أول خطوة</small></span><span class="note-check">✓</span></div>
+        <div class="hero-card">
+          <div class="card-topline"><span>فرصة مناسبة لك</span><span class="live-pill"><i></i> جديد</span></div>
+          <div class="mini-company"><span class="company-logo logo-lilac">N</span><span><b>نواة الرقمية</b><small>شركة موثقة</small></span><span class="verified">✓</span></div>
+          <h3>تصميم تجربة متجر إلكتروني</h3>
+          <div class="tag-row"><span>تصميم UX/UI</span><span>Figma</span><span>عن بُعد</span></div>
+          <div class="card-bottom"><span>ميزانية المشروع<small>٨٬٠٠٠ – ١٢٬٠٠٠ ج.م</small></span><span class="card-arrow">↙</span></div>
+        </div>
+        <div class="floating-note note-bottom"><span class="progress-ring">✓</span><span><b>كل حاجة في مكانها</b><small>مراحل، ملفات، وتحديثات</small></span></div>
+        <div class="art-stamp">شغل<br>على نور <span>✳</span></div>
+      </div>
+      <div class="hero-bottom">
+        <span>مكان واحد يوصّلك لـ</span><span class="hero-bottom-line"></span>
+        <div class="skill-chips"><span>تصميم</span><span>تطوير</span><span>تسويق</span><span>كتابة</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" id="why-midad">
+      <div><span class="trust-icon">◈</span><span><strong>اتفاقات أوضح</strong><small>نطاق وميزانية من البداية</small></span></div>
+      <div><span class="trust-icon">✓</span><span><strong>مواهب موثّقة</strong><small>ملفات وتقييمات مفهومة</small></span></div>
+      <div><span class="trust-icon">▤</span><span><strong>مشروع منظم</strong><small>المراحل والتواصل في مكان واحد</small></span></div>
+      <a href="#how-it-works">ليه مِداد مختلف؟ <span>←</span></a>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="section-heading">
+        <div><span class="section-kicker">فرص تستاهل وقتك</span><h2>مشاريع على مقاسك<span>.</span></h2><p>اختار فرصة واضحة، وقدّم عرضك بثقة.</p></div>
+        <a class="text-link" href="#projects">كل المشاريع <span>←</span></a>
+      </div>
+      <div class="project-toolbar">
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>
+          <input id="project-search" type="search" placeholder="دور على مشروع أو مهارة..." aria-label="ابحث عن مشروع">
+          <kbd>⌘ K</kbd>
+        </label>
+        <div class="category-filters" role="group" aria-label="تصفية حسب التخصص">
+          <button class="filter-chip selected" data-category="all">الكل <span>١٢</span></button>
+          <button class="filter-chip" data-category="design">تصميم</button>
+          <button class="filter-chip" data-category="development">تطوير</button>
+          <button class="filter-chip" data-category="marketing">تسويق</button>
+          <button class="filter-chip" data-category="writing">كتابة</button>
+        </div>
+        <button class="sort-button" id="sort-button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M7 12h10m-7 5h4"/></svg> الأحدث <span>⌄</span></button>
+      </div>
+      <div class="project-layout">
+        <div class="project-list" id="project-list" aria-live="polite"></div>
+        <aside class="sidebar">
+          <div class="profile-card">
+            <div class="profile-top"><div class="profile-avatar">م<span>✦</span></div><span class="online-tag"><i></i> متاح للعمل</span></div>
+            <h3>مساحتك المهنية</h3>
+            <p>خلّي أصحاب المشاريع يعرفوا إمكانياتك.</p>
+            <div class="profile-completion"><span>اكتمال الملف الشخصي</span><b id="completion-value">٧٠٪</b></div>
+            <div class="completion-track"><span></span></div>
+            <a href="#" class="profile-link" data-toast="ملفك الشخصي جاهز للتعديل">كمّل ملفك الشخصي <span>←</span></a>
+          </div>
+          <div class="tip-card"><div class="tip-icon">✳</div><span class="section-kicker">نصيحة مِداد</span><p>العرض الجيد يبدأ بفهم احتياج العميل، مش بس ذكر خبرتك.</p><a href="#how-it-works">اعرف أكتر <span>←</span></a></div>
+          <div class="saved-card"><div><span class="saved-icon">♡</span><strong>مشاريع محفوظة</strong></div><span class="saved-count" id="saved-count">٠</span></div>
+        </aside>
+      </div>
+      <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>مش لاقيين مشروع بالكلمات دي</h3><p>جرّب كلمة تانية أو اختار تخصص مختلف.</p><button class="text-link" id="clear-search">امسح البحث <span>←</span></button></div>
+      <button class="load-more" id="load-more">عرض مشاريع أكتر <span>↓</span></button>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="how-intro"><span class="section-kicker">ببساطة ومن غير لف</span><h2>من أول فكرة<br>لحد التسليم.</h2><p>كل خطوة واضحة عشان تركيزك يفضل على الشغل الحلو.</p><button class="button button-dark" data-modal-open="project-modal">ابدأ مشروعك <span>←</span></button></div>
+      <div class="steps">
+        <article class="step"><span class="step-number">01</span><div class="step-symbol">⌕</div><h3>اختار أو انشر</h3><p>دور على مشروع مناسب، أو اكتب احتياجك بكل وضوح.</p></article>
+        <article class="step"><span class="step-number">02</span><div class="step-symbol">↗</div><h3>اتفقوا بوضوح</h3><p>نطاق العمل والميزانية والمراحل قدام الطرفين.</p></article>
+        <article class="step"><span class="step-number">03</span><div class="step-symbol">✳</div><h3>اشتغلوا بثقة</h3><p>تابع التقدم والتواصل والتسليم في مساحة واحدة.</p></article>
+      </div>
+    </section>
+
+    <section class="cta-band"><div><span class="cta-spark">✳</span><h2>شغلك الجاي يبدأ من هنا.</h2><p>سواء بتدور على موهبة أو فرصة جديدة، مكانك جاهز.</p></div><div class="cta-actions"><button class="button button-light" data-modal-open="project-modal">انشر مشروعك <span>←</span></button><a href="#projects" class="cta-outline">استكشف الفرص</a></div><div class="cta-orb"></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span class="brand-name">مِداد<span class="brand-period">.</span></span></a><p>شغل أوضح. علاقات أقوى.</p><span>© ٢٠٢٦ مِداد. كل الحقوق محفوظة.</span></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog class="project-modal" id="project-modal">
+    <form method="dialog" class="modal-close-form"><button class="modal-close" aria-label="إغلاق">×</button></form>
+    <span class="section-kicker">خطوة أولى بسيطة</span><h2>احكي لنا عن مشروعك<span>.</span></h2><p>ابدأ بتفاصيل بسيطة، وحدد احتياجك بوضوح.</p>
+    <form id="project-form">
+      <label>اسم المشروع<input name="title" required maxlength="90" placeholder="مثال: تصميم هوية بصرية لمتجر"></label>
+      <div class="form-row"><label>التخصص<select name="category" required><option value="">اختار تخصص</option><option>تصميم</option><option>تطوير</option><option>تسويق</option><option>كتابة</option></select></label><label>الميزانية التقريبية<input name="budget" required placeholder="مثال: ٥٬٠٠٠ ج.م"></label></div>
+      <label>وصف مختصر<textarea name="description" required rows="3" maxlength="500" placeholder="إيه المطلوب؟ وإيه النتيجة اللي بتدور عليها؟"></textarea></label>
+      <button class="button button-primary submit-project" type="submit">حفظ كمسودة <span>←</span></button>
+      <small class="form-note">نسخة تجريبية: سيتم حفظ البيانات محليًا في هذه الصفحة فقط.</small>
+    </form>
+  </dialog>
+</body>
+</html>
